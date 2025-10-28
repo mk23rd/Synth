@@ -1,0 +1,395 @@
+@media(min-width: 750px){
+    .pc-wrapper{
+        display: block;
+    }
+    
+    .phone-wrapper{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrapper{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background: rgb(218,219,182); /* Old browsers */
+        background: -moz-linear-gradient(45deg,  rgba(218,219,182,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadbb6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        color: black;
+        
+    }
+    .header{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background: linear-gradient(135deg, #4a3a36 0%,#654b43 100%); */
+        height: 7%;
+        width: 100%;
+    
+        /* border: 1px solid green; */
+    }
+    /* .logo{
+        border: 1px solid green;
+    } */
+    .logo img{
+        
+        width: 50px;
+        height: 50px;
+    
+    }
+    .logo p{
+        color:#4a3a36;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .header-right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+        gap: 40px;
+    
+    }
+    .nav-list{
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    .nav-list li{
+        list-style: none;
+        font-size: 20px;
+    }
+    .nav-list a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    .my-account{
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+    }
+    .sign-in-link{
+        text-decoration: none;
+        color: black;
+        border-radius: 30px;
+        border: 1px solid #dcddbb;
+        height: 30px;
+        width: 100px;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    
+    }
+    .my-account-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .user-img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        /* border: 1px solid yellow; */
+    }
+    .details-page{
+        /* border: 1px solid blue; */
+        /* background: linear-gradient(135deg, #fcfcfb 0%,#edf7d2 100%); */
+        
+        display: flex;
+        justify-content: flex-start;
+        height: 90vh;
+        width: 100vw;
+        position: relative;
+        gap: 20px;
+      
+    }
+    .details-image-part{
+        position: relative;
+        width: 60%;
+        
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    /* .details-image-container{
+       
+    
+    } */
+    
+    .the-picked-image{
+        margin-top: 30px;
+        width: 700px;
+        height: 500px;
+        background-color:#88543B;
+        border-radius: 30px;
+        object-fit: contain;
+        
+    }
+    
+    
+    .details-description-part{
+        position: relative;
+        width: 25%;
+        height: 80%;
+        border: 1px solid #88543B;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .details-description-part .picked-name{
+        font-size: 35px;
+        color: #4a3a36;
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+    .price-N-size{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        gap: 30px;
+        
+    }
+    
+    
+    .sizes{
+        display: flex;
+        gap: 15px;
+        
+        
+    }
+    .size{
+        background-color: white;
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        
+    }
+    .color-N-quantity{
+        display: flex;
+        justify-content: space-around;
+        gap: 70px;
+        
+    }
+    .color-picker{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: start;
+        
+        
+    }
+    .picked-quantity{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #quantity{
+        width: 40px;
+        height: 20px;
+    }
+    
+    #btn-add-to-cart{
+        width: 170px;
+        height: 40px;
+        background-color: white;
+        color:#88543B;
+        border: 1px solid #88543B;
+        border-radius: 10px;
+    
+    }
+    
+    #btn-add-to-cart:hover{
+        border: 2px solid #0e9ed2;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .wrapper{
+        width: 100vw;
+        height: 30vh;
+        
+    
+        background: #dcddbb; /* Old browsers */
+        background: -moz-linear-gradient(left,  #dcddbb 1%,#e7e8d0 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(left,  #dcddbb 1%,#e7e8d0 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right,  #dcddbb 1%,#e7e8d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadbb7', endColorstr='#f2f2e6',GradientType=1 ); /* IE6-9 */
+        
+    }
+    .header{
+        display: flex;
+    }
+    
+    .logo{
+        flex-grow: 1;
+        display: flex;
+        position: absolute;
+        top: 8px;
+    }
+    
+    .logo .logo-left-foot{
+        width: 30px;
+        position: relative;
+        left: 20px;
+        top: 30px;
+    }
+    
+    .logo .logo-word{
+        color: #79462E;
+        font-size: 42px;
+        font-weight: 600;
+        position: relative;
+        left: 27px;
+        top: 15px;
+    }
+    
+    .logo .logo-right-foot{
+        width: 35px;
+        position: relative;
+        left: 20px;
+    }
+    
+    .header-right{
+        position: fixed;
+        left: 1300px;
+        top: -35px;
+    }
+    
+    .navbar ul{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        right: 300px;
+        top: 45px;
+        gap: 35px;
+        list-style-type: none;
+    }
+    
+    .navbar ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+    
+    /* .my-account{
+        display: flex;
+        gap: 5px;
+        position: relative;
+        top: 10px;
+    } */
+    
+    /* #btn-sign-in{
+        flex-grow: 1;
+        position: absolute;
+        top: 10px;
+        left: 30px;
+        height: 30px;
+        width: 110px;
+        font-weight: 600;
+        color: white;
+        background-color: #D18826;
+        border: none;
+        border-radius: 20px;
+    } */
+    
+    /* .my-account-right{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 150px;
+    } */
+    
+    /* .my-account .my-account-right .user-img{
+        width: 50px;
+    } */
+    
+    .sizes{
+        display: flex;
+        gap: 30px;
+        font-weight: 600;
+        position: absolute;
+        top: 380px;
+        left: 990px;
+        z-index: 100;
+    }
+    
+    .small{
+        border: 1px solid #88543B;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    
+    .medium{
+        border: 1px solid #88543B;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    
+    .large{
+        border: 1px solid #88543B;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    
+    .very-large{
+        border: 1px solid #88543B;
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        color: black;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+    }
+    
+}
+
+
+

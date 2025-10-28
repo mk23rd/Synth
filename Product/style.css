@@ -1,0 +1,226 @@
+.phone-wrapper{
+    display: block;
+
+}
+
+.pc-wrapper{
+    display: none;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    padding-right: 250px;
+}
+
+.head-phone-link{
+    text-decoration: none;
+}
+
+header .hamburger input{
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.head-phone .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 130px;
+}
+
+header .logo .center{
+    color: #79462e;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+header .logo .left img{
+    width: 27px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+header .logo .right img{
+    width: 34px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+
+
+nav .search{
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 400px;
+    height: 60px;
+    border: 1.6px solid #79462E;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+nav .search input{
+    height: 55px;
+    width: 308px;
+    border: none;
+    position: relative;
+    text-decoration: none;
+    left: 24px;
+    outline: none;
+    color: #79462E;
+    font-size: 18px;
+}
+
+nav .search input::placeholder{
+    color: #79462E;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav .search img{
+    position: relative;
+    left: 12px;
+}
+
+nav .option{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    position: relative;
+    left: 80px;
+}
+
+nav .option .allbtn-phone img{
+    width: 65px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+nav .option .menbtn-phone img{
+    width: 65px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+nav .option .womenbtn-phone img{
+    width: 65px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+section .product{
+    position: relative;
+    top: 140px;
+    left: 45px;
+    color: #79462E;
+    font-size: 30px;
+}
+
+section .category{
+    background-color: #79462E;
+    color: white;
+    position: relative;
+    top: 130px;
+    left: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+section .category .choose{
+    z-index: 1;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 196);
+    text-decoration: underline;
+    padding-left: 15px;
+    padding-top: 20px;
+    background-color: #79462E;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 160px;
+    height: 130px;
+    display: none;
+}
+section .category .choose .jacketbtn-phone{
+    position: relative;
+    bottom: 10px;
+}
+section .category .choose .bagbtn-phone{
+    position: relative;
+    top: 10px;
+}
+
+
+section .slide{
+    position: absolute;
+    top: 375px;
+}
+
+.choose a{
+    color: #dcddbb;
+}
+
+.slide .men-phone{
+    display: none;
+}
+.slide .women-phone{
+    display: none;
+}
+.slide .jacket-phone{
+    display: none;
+}
+.slide .bag-phone{
+    display: none;
+}
+.slide .belt-phone{
+    display: none;
+}
+.slide .all-phone{
+    display: none;
+}
+
+.non-slide .men-phone{
+    display: none;
+}
+.non-slide .women-phone{
+    display: none;
+}
+.non-slide .jacket-phone{
+    display: none;
+}
+.non-slide .bag-phone{
+    display: none;
+}
+.non-slide .belt-phone{
+    display: none;
+}
+.non-slide .all-phone{
+    display: none;
+}

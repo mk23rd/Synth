@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dadbb7+1,f2f2e6+100 */
+background: #dcddbb; /* Old browsers */
+background: -moz-linear-gradient(left,  #dcddbb 1%,#e7e8d0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #dcddbb 1%,#e7e8d0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #dcddbb 1%,#e7e8d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadbb7', endColorstr='#f2f2e6',GradientType=1 ); /* IE6-9 */
+
+
+    padding-right: 250px;
+}
+
+.head-phone-link{
+    text-decoration: none;  
+}
+
+header .hamburger input{
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.head-phone .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    left: 130px;
+}
+
+header .logo .center{
+    color: #79462e;
+    font-size: 52px;
+    font-weight: 600;
+}
+
+header .logo .left img{
+    width: 27px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+
+header .logo .right img{
+    width: 34px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.php-cart{
+    position: relative;
+    top: 50px;
+    left: -8px;
+}

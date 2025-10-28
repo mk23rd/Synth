@@ -1,0 +1,81 @@
+.pc-wrapper{
+    display: none;
+}
+
+.phone-wrapper{
+    display: block;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#79462e+0,3d2317+100 */
+background: rgb(121,70,46);
+background: -moz-linear-gradient(45deg,  #664636 0%, #764f3c 100%);
+background: -webkit-linear-gradient(45deg,  #664636 0%, #764f3c 100%);
+background: linear-gradient(45deg,  #664636 0%, #764f3c 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#79462e', endColorstr='#3d2317',GradientType=0 ); 
+
+    position: absolute;
+    top: 1270px;
+    left: 97px;
+    border: none;
+    height: 155px;
+    width: 337px;
+}
+
+
+.bottom img{
+    position: absolute;
+    right: 190.9px;
+    top: 1269.5px;
+}
+
+.suggestions{
+    position: absolute;
+    top: 1268px;
+    left: 336px;
+    color: #CACACA;
+    width: 10px;
+}
+
+.suggestions .line{
+    background-color: #CACACA;
+    position: relative;
+    color: transparent;
+    top: 13px;
+    right: 140px;
+    width: 134px;
+    height: 1px;
+}
+
+.suggestions .title{
+    font-size: 19px;
+}
+
+.suggestions .arrow{
+    position: relative;
+    top: 30px;
+    right: 220px;
+}
+
+.suggestions .sample1 img{
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 90px;
+}
+
+.suggestions .sample2 img{
+    z-index: 1;
+    position: absolute;
+    top: 35px;
+    left: -10px;
+    width: 100px;
+}
+

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+  <g id="TickBox" fill="#fff" stroke="#79462e" stroke-width="1">
+    <rect width="18" height="18" rx="6" stroke="none"/>
+    <rect x="0.5" y="0.5" width="17" height="17" rx="5.5" fill="none"/>
+  </g>
+</svg>

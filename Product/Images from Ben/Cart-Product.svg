@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25.708" height="23.698" viewBox="0 0 25.708 23.698">
+  <g id="Cart-Product" transform="translate(-1839.75 -137.198)">
+    <path id="Path_15" data-name="Path 15" d="M1855,38h19.256l-3.847,9.7H1858.64Z" transform="translate(-9.534 105.198)" fill="#737373" stroke="#737373" stroke-width="1"/>
+    <line id="Line_36" data-name="Line 36" x1="2.972" y2="4" transform="translate(1846.75 152.895)" fill="none" stroke="#737373" stroke-width="1"/>
+    <line id="Line_37" data-name="Line 37" y1="0.197" x2="15" transform="translate(1846.75 156.698)" fill="none" stroke="#737373" stroke-width="1"/>
+    <line id="Line_38" data-name="Line 38" x1="0.972" y2="2" transform="translate(1848.236 156.895)" fill="none" stroke="#737373" stroke-width="1"/>
+    <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(1846.208 157.895)" fill="#fefefd" stroke="#737373" stroke-width="1">
+      <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+      <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+    </g>
+    <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(1859.208 157.895)" fill="#fdfdfc" stroke="#737373" stroke-width="1">
+      <circle cx="1.5" cy="1.5" r="1.5" stroke="none"/>
+      <circle cx="1.5" cy="1.5" r="1" fill="none"/>
+    </g>
+    <line id="Line_39" data-name="Line 39" x1="3.716" y1="5.5" transform="translate(1841.75 137.698)" fill="none" stroke="#737373" stroke-width="1"/>
+    <line id="Line_40" data-name="Line 40" x1="2.472" transform="translate(1839.75 137.698)" fill="none" stroke="#737373" stroke-width="1"/>
+    <line id="Line_43" data-name="Line 43" x2="1.528" y2="2" transform="translate(1859.208 156.698)" fill="none" stroke="#737373" stroke-width="1"/>
+  </g>
+</svg>

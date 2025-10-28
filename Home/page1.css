@@ -1,0 +1,266 @@
+.pc-wrapper{
+    display: none;
+}
+
+.phone-wrapper{
+    display: block;
+}
+
+
+:root{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#765343+0,ffffff+100 */
+--back1: rgb(118,83,67); /* Old browsers */
+--back2: -moz-linear-gradient(45deg,  rgba(118,83,67,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+--back3: -webkit-linear-gradient(45deg,  rgba(118,83,67,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+--back4: linear-gradient(45deg,  rgba(118,83,67,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+--fil: progid:DXImageTransform.Microsoft.gradient( startColorstr='#765343', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.page1{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3d2317+0,79462e+50,3d2317+100&0.9+1,0.81+50,0.9+50,0.9+100 */
+background: -moz-linear-gradient(45deg,  rgba(61,35,23,0.9) 0%, rgba(62,36,23,0.9) 1%, rgba(121,70,46,0.9) 50%, rgba(61,35,23,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(61,35,23,0.9) 0%,rgba(62,36,23,0.9) 1%,rgba(121,70,46,0.9) 50%,rgba(61,35,23,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(61,35,23,0.9) 0%,rgba(62,36,23,0.9) 1%,rgba(121,70,46,0.9) 50%,rgba(61,35,23,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e63d2317', endColorstr='#e63d2317',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+    padding-top: 20px;
+    padding-left: 10px;
+    position: relative;
+    height: 1791px;
+    /* height: 1474px; */
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+}
+.btn .bar1 input{
+    width: 38px;
+    position: fixed;
+}
+.btn .bar2 input{
+    width: 38px;
+    position: fixed;
+}
+.btn .bar3 input{
+    width: 38px;
+    position: fixed;
+}
+
+.words{
+    color: #d8dab3;
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 625px;
+    left: 110px;
+}
+
+.words .comp{
+    font-size: 50px;
+}
+
+.one{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+
+    grid-area: d1;
+    border-radius: 70px;
+    width: 80px;
+    overflow: hidden;
+}
+
+
+.two{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d2;
+    border-radius: 70px;
+    width: 80px;
+}
+
+
+.three{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d3;
+    border-radius: 70px;
+    width: 80px;
+    display: none;
+}
+
+
+.four{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d4;
+    border-radius: 70px;
+    width: 80px;
+    display: none;
+}
+
+
+.five{
+
+    grid-area: d5;
+    border-radius: 70px;
+    width: 80px;
+}
+
+.six{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d6;
+    border-radius: 70px;
+    width: 80px;
+}
+
+.seven{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d7;
+    border-radius: 70px;
+    width: 80px;
+    display: none;
+}
+.eight{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d8;
+    border-radius: 70px;
+    width: 80px;
+}
+.nine{
+    background: var(--back1);
+    background: var(--back2);
+    background: var(--back3);
+    background: var(--back4);
+    filter: var(--fil);
+
+    grid-area: d9;
+    border-radius: 70px;
+    width: 80px;
+}
+
+.wrapper1{
+    position: relative;
+    top: 40px;
+    justify-content: center;
+    height: 100px;
+    display: grid;
+    row-gap: 50px;
+    column-gap: 35px;
+    grid-area: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'd1 d2 d3'
+    'd1 d2 d3'
+    'd4 d5 d6'
+    'd4 d5 d6'
+    'd7 d8 d9'
+    'd7 d8 d9';
+    
+    animation: 1s linear 1 flow;
+}
+
+.one img{
+    width: 110px;
+    position: relative;
+    right: 15px;
+    top: 10px;
+    display: none;
+}
+
+.two img{
+    width: 150px;
+    position: relative;
+    right: 10px;
+    top: 25px;
+    display: none;
+}
+
+.two span{
+    background-color: transparent;
+    display: block;
+    width: 120px;
+    height: 195px;
+    overflow: hidden;
+    position: absolute;
+    right: 170px;
+    top: 35px;
+    border-bottom-left-radius: 280px;
+    border-bottom-right-radius: 120px;
+}
+
+.six img{
+    width: 125px;
+    position: absolute;
+    top: 225px;
+    right: 34px;
+    display: none;
+}
+
+.eight img{
+    width: 140px;
+    position: absolute;
+    top: 422px;
+    right: 130px;
+    display: none;
+}
+
+.nine img{
+    width: 120px;
+    position: absolute;
+    top: 420px;
+    left: 283px;
+    display: none;
+}
+
+.words .comp{
+    position: relative;
+    left: 50px;
+    top: 30px;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342.482" height="256.863" viewBox="0 0 342.482 256.863">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="-0.259" y2="1.274" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#512114" stop-opacity="0.702"/>
+      <stop offset="1" stop-color="#110704" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#100704" stop-opacity="0.82"/>
+    </linearGradient>
+  </defs>
+  <g id="RightButton" transform="translate(-1199.626 -820.637)">
+    <path id="Path_16" data-name="Path 16" d="M622.281,0l-142.9,256.863H279.8L422.316,0Z" transform="translate(919.826 820.637)" fill="url(#linear-gradient)"/>
+    <line id="Line_41" data-name="Line 41" x1="41" transform="matrix(-0.695, -0.719, 0.719, -0.695, 1399.566, 953.045)" fill="none" stroke="#d8dab3" stroke-width="10"/>
+    <line id="Line_42" data-name="Line 42" x1="0.182" y2="40.546" transform="translate(1399.537 945.786) rotate(45)" fill="none" stroke="#d8dab3" stroke-width="10"/>
+  </g>
+</svg>

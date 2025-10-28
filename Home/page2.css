@@ -1,0 +1,141 @@
+.pc-wrapper{
+    display: none;
+}
+
+.phone-wrapper{
+    display: block;
+}
+
+:root{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d8dab3+0,ffffff+100&0.51+0,1+100 */
+--back1: -moz-linear-gradient(45deg,  rgba(216,218,179,0.51) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+--back2: -webkit-linear-gradient(45deg,  rgba(216,218,179,0.51) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+--back3: linear-gradient(45deg,  rgba(216,218,179,0.51) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+--fil: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82d8dab3', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.triangle img{
+    position: absolute;
+    top: 732px;
+    left: 1px;
+    width: 433px;
+}
+
+.wrapper2 .title{
+    color: #d8dab3;
+    font-size: 32px;
+    font-weight: 500;
+    position: absolute;
+    top: 750px;
+    left: 150px;
+}
+
+
+.wrapper2 .main .name{
+    color: #d8dab3;
+    font-size: 29px;
+    position: absolute;
+    top: 810px;
+    left: 20px;
+}
+
+
+.wrapper2 .main .name .word2{
+    position: absolute;
+    bottom: 34px;
+    left: 105px;
+}
+
+
+
+
+
+
+.wrapper2 .main .cloth .red img{
+    z-index: 1;
+    width: 300px;
+    position: absolute;
+    top: 835px;
+    left: 50px;
+    filter: drop-shadow(3px 3px 4px black);
+    display: none;
+}
+.wrapper2 .main .cloth .green img{
+    z-index: 1;
+    width: 220px;
+    position: absolute;
+    top: 840px;
+    left: 100px;
+    filter: drop-shadow(3px 3px 4px black);
+    display: none;
+}
+.wrapper2 .main .cloth .blue img{
+    z-index: 1;
+    width: 220px;
+    position: absolute;
+    top: 840px;
+    left: 100px;
+    filter: drop-shadow(3px 3px 4px black);
+    display: none;
+}
+.wrapper2 .main .cloth .yellow img{
+    z-index: 1;
+    width: 220px;
+    position: absolute;
+    top: 848px;
+    left: 100px;
+    filter: drop-shadow(3px 3px 4px black);
+    display: none;
+}
+
+
+
+
+
+
+.wrapper2 .main .purchase .plus{
+    position: absolute;
+    top: 1150px;
+    left: 110px;
+}
+
+.wrapper2 .main .purchase .price{
+    color: #919191;
+    font-size: 42px;
+    font-weight: 600;
+    position: absolute;
+    top: 1153px;
+    left: 180px;
+}
+
+.wrapper2 .main .purchase .price span{
+    position: relative;
+    bottom: 10px;
+    font-size: 30px;
+}
+
+.wrapper2 .main .color{
+    z-index: 1;
+    position: absolute;
+    top: 1210px;
+    left: 54px;
+    transform: rotate(32deg);
+}
+
+.wrapper2 .main .color .color-name{
+    color: white;
+    font-size: 28px;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 30px;
+    right: 22px;
+}
+
+

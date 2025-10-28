@@ -1,0 +1,189 @@
+.phone-wrapper{
+    display: block;
+}
+
+
+.pc-wrapper{
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#dadbb6+0,ffffff+100 */
+background: rgb(218,219,182); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(218,219,182,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(218,219,182,1) 0%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dadbb6', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.top{
+    background-color: #88543B;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    height: 320px;
+}
+
+.top .back{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.middle {
+    position: absolute;
+    top: 380px;
+}
+
+.middle .size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    gap: 60px;
+    position: relative;
+    top: 30px;
+}
+.middle .size .SP{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #88543B;
+    border-radius: 10px;
+}
+.middle .size .MP{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #88543B;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+.middle .size .LP{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #88543B;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+.middle .size .XLP{
+    background-color: white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #88543B;
+    border-radius: 10px;
+}
+
+.middle .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #775952;
+    font-weight: 600;
+}
+
+.bottom{
+    background-color: #88543B;
+    width: 100%;
+    height: 178px;
+    position: absolute;
+    top: 560px;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+
+.bottom .color{
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    border: 1.6px solid #D69F4F;
+    border-radius: 15px;
+    width: 170px;
+    height: 55px;
+}
+.bottom .color .options{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 2px;
+}
+.bottom .color .options .one{
+    position: relative;
+    left: 10px;
+}
+.bottom .color .options .two{
+    position: relative;
+    z-index: 1;
+}
+.bottom .color .options .three{
+    position: relative;
+    left: -10px;
+    z-index: 2;
+}
+.bottom .color h3{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 5px;
+    color: #88543B;
+    font-size: 18px;
+}
+.bottom .color .left{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 8px;
+}
+
+
+.bottom .plus{
+    position: absolute;
+    top: 38px;
+    left: 370px;
+}
+
+.bottom .cart{
+    position: absolute;
+    top: 108px;
+    left: 30px;
+}
+.bottom .cart input{
+    width: 400px;
+    height: 60px;
+    background-color: #D69F4F;
+    color: #FFFFFF;
+    font-size: 25px;
+    border-color: transparent;
+    border-radius: 15px;   
+}

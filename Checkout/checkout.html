@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="icon" type="image/png" href="../Images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <div class="pc-wrapper">
+
+        <div class="wrapper">
+            <header class="header">
+                <a href="../Home/home.html">
+                    <div class="logo">
+                        <img
+                            src="Images from Ben/LeftFoot.svg"
+                            alt=""
+                            class="logo-left-foot"
+                        />
+                        <img
+                            src="Images from Ben/RightFoot.svg"
+                            alt=""
+                            class="logo-right-foot"
+                        />
+                        <p class="logo-word">Synth</p>
+                    </div>
+                </a>
+                
+
+                <div class="header-right">
+                    <nav class="navbar">
+                        <ul class="nav-list">
+                        <li><a href="../Home/home.html">Home</a></li>
+                        <li><a href="../Product/product.html">Product</a></li>
+                        </ul>
+                    </nav>
+                    <div class="my-account">
+                        
+                        <a href="../signup/login.html" class="sign-in-link">
+                        <?php
+                        include("signedname.php");
+                        ?>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="sizes">
+                    <div class="small">
+                        <p>S</p>
+                    </div>
+                    <div class="medium">
+                        <p>M</p>
+                    </div>
+                    <div class="large">
+                        <p>L</p>
+                    </div>
+                    <div class="very-large">
+                        <p>VL</p>
+                    </div>
+                </div>
+            </header>
+            <?php
+                include("./detail.php");
+            ?>
+    </div>
+
+      
+    </div>
+
+    <div class="phone-wrapper">
+        <div class="top">
+            <div class="back"><a href="../Product/product.html"><input type="image" src="Assets/Back.svg" alt=""></a></div>
+            <?php
+            include("./checkout.php");
+            ?>
+        </div>
+        <div class="middle">
+            <div class="size">
+                <div class="SP">S</div>
+                <div class="MP">M</div>
+                <div class="LP">L</div>
+                <div class="XLP">XL</div>
+            </div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum recusandae soluta iure ab laboriosam sint a quam neque. Voluptatibus quod maxime temporibus quo cum.</div>
+        </div>
+        <div class="bottom">
+    
+            <div class="color">
+                <h3>Colors</h3>
+                <div class="options">
+                    <div class="one"><img src="Assets/Purple.png" alt=""></div>
+                    <div class="two"><img src="Assets/Red.png" alt=""></div>
+                    <div class="three"><img src="Assets/Green.png" alt=""></div>
+                </div>
+                <div class="left"><img src="Assets/Left-Slide.svg" alt=""></div>
+            </div>
+    
+            <!-- <div class="cart"><input type="submit" value="Buy Now"></div> -->
+        </div>
+
+    </div>
+    
+    
+</body>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="script.js"></script>
+<script src="detail.js"></script>
+</html>
